@@ -39,7 +39,7 @@ with st.sidebar:
 # =====================================================================
 # MAIN INTERFACE
 # =====================================================================
-st.title("🎓 Smart Subject Tutor (v1.0)")
+st.title("🎓 Learnwise-ai (v1.0)")
 st.caption(
     f"Grounded in `data/subject_notes.md` ({tutor.subject_title}) • "
     "Embeddings: `all-MiniLM-L6-v2` • LLM: `Qwen2.5-0.5B-Instruct` • Vector DB: `ChromaDB`"
