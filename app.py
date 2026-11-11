@@ -19,7 +19,7 @@ tutor = load_tutor_engine()
 # SIDEBAR: SUBJECT TELEMETRY & STYLE SELECTOR
 # =====================================================================
 with st.sidebar:
-    st.header("⚙️ Tutor Controls (v1.0)")
+    st.header("⚙️ NIKHIL JAISWAL (v1.0)")
     st.success("🔓 100% Open-Source Stack (No API Key)")
     st.markdown(f"**Active Subject:** `{tutor.subject_title}`")
     st.markdown(f"**Indexed Knowledge Chunks:** `{tutor.chunk_count}`")
