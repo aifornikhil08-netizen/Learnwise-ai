@@ -2,7 +2,7 @@ import streamlit as st
 from rag_engine import OpenSourceRAGTutor, STYLE_PROMPTS
 
 st.set_page_config(
-    page_title="Smart Subject Tutor v1.0 (Open-Source RAG)",
+    page_title="LEARNWISE AI v1.0 (Open-Source RAG)",
     page_icon="🎓",
     layout="wide",
 )
@@ -50,7 +50,7 @@ st.info(
     "different styles to see how the tutor adapts its teaching voice while staying grounded in your notes!"
 )
 
-default_question = "What is a Deadlock and what are the four conditions required for it?"
+default_question = "Ask something...."
 user_query = st.text_input(
     "Ask a question about your chosen subject:",
     value=default_question,
